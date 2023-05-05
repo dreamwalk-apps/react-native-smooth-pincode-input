@@ -1,12 +1,12 @@
 {
-  "name": "react-native-smooth-pincode-input",
-  "version": "1.0.10",
+  "name": "@dreamwalk-os/react-native-smooth-pincode-input",
+  "version": "1.0.0",
   "description": "A cross-platform, smooth, lightweight, customizable PIN code input component for React Native.",
   "main": "src/index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/xamous/react-native-smooth-pincode-input.git"
+    "url": "https://github.com/dreamwalk-apps/react-native-smooth-pincode-input.git"
   },
   "keywords": [
     "react-native",
@@ -14,12 +14,12 @@
     "password",
     "TextInput"
   ],
-  "author": "William Shih <xamous@gmail.com>",
+  "author": "Paolo Benini <paolo@dreamwalk.com.au>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xamous/react-native-smooth-pincode-input/issues"
+    "url": "https://github.com/dreamwalk-apps/react-native-smooth-pincode-input/issues"
   },
-  "homepage": "https://github.com/xamous/react-native-smooth-pincode-input",
+  "homepage": "https://github.com/dreamwalk-apps/react-native-smooth-pincode-input",
   "peerDependencies": {
     "react-native": "*"
   },
