@@ -47,5 +47,10 @@ declare module "@dreamwalk-os/react-native-smooth-pincode-input" {
   export default class SmoothPinCodeInput extends Component<
     SmoothPinCodeInputProps,
     SmoothInputSate
-  > {}
+  > {
+    shake(): void;
+    focus(): void;
+    blur(): void;
+    clear(): void;
+  }
 }
