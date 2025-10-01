@@ -1,20 +1,20 @@
 import React, { useCallback, useEffect, useImperativeHandle, useRef, useState } from 'react';
 import {
-    I18nManager,
-    StyleSheet,
-    Text,
-    TextInput,
-    View,
+  I18nManager,
+  StyleSheet,
+  Text,
+  TextInput,
+  View,
 } from 'react-native';
 import Animated, {
-    Easing,
-    cancelAnimation,
-    runOnJS,
-    useAnimatedStyle,
-    useSharedValue,
-    withRepeat,
-    withSequence,
-    withTiming,
+  Easing,
+  cancelAnimation,
+  runOnJS,
+  useAnimatedStyle,
+  useSharedValue,
+  withRepeat,
+  withSequence,
+  withTiming,
 } from 'react-native-reanimated';
 
 const styles = StyleSheet.create({
@@ -301,7 +301,7 @@ const SmoothPinCodeInput = React.forwardRef((props, forwardedRef) => {
         }}
         style={{
           flex: 1,
-          opacity: 0,
+          color: 'transparent',
           textAlign: 'center',
         }}
         testID={testID || undefined}
@@ -312,5 +312,3 @@ const SmoothPinCodeInput = React.forwardRef((props, forwardedRef) => {
 });
 
 export default SmoothPinCodeInput;
-
-
