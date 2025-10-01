@@ -24,8 +24,6 @@ declare module "@dreamwalk-os/react-native-smooth-pincode-input" {
     textStyle?: StyleProp<TextStyle>;
     textStyleFocused?: StyleProp<TextStyle>;
     animated?: boolean;
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    animationFocused?: string | any;
     onFulfill?: (value: string) => void;
     onChangeText?: TextInputProps["onChangeText"];
     onBackspace?: () => void;
