@@ -1,6 +1,6 @@
 {
   "name": "@dreamwalk-os/react-native-smooth-pincode-input",
-  "version": "1.1.4",
+  "version": "1.1.3",
   "description": "A cross-platform, smooth, lightweight, customizable PIN code input component for React Native.",
   "main": "src/index.js",
   "scripts": {},
