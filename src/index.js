@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useImperativeHandle, useRef, useState } from 'react';
 import {
   I18nManager,
+  Platform,
   StyleSheet,
   Text,
   TextInput,
@@ -303,6 +304,7 @@ const SmoothPinCodeInput = React.forwardRef((props, forwardedRef) => {
           flex: 1,
           color: 'transparent',
           textAlign: 'center',
+          opacity: Platform.OS === 'android' ? 0 : 1,
         }}
         testID={testID || undefined}
         editable={editable}
